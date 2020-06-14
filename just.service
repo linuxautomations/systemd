@@ -1,0 +1,6 @@
+[Unit]
+Description = Just a Service
+[Service]
+ExecStart   = /opt/just.sh
+[Install]
+WantedBy    = multi-user.target
